@@ -14,11 +14,9 @@ dotnet test
 
 # [Theory] Example
 
+LogAnalyzer.cs
 ![LogAnalyzer](https://raw.githubusercontent.com/kurozakizz/dotnet-testing/master/screenshots/LogAnalyzer.png)
 
-LogAnalyzer.cs
-
-![LogAnalyzerTests](https://raw.githubusercontent.com/kurozakizz/dotnet-testing/master/screenshots/LogAnalyzerTests.png)
-
 LogAnalyzerTests.cs
+![LogAnalyzerTests](https://raw.githubusercontent.com/kurozakizz/dotnet-testing/master/screenshots/LogAnalyzerTests.png)
 
