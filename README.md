@@ -6,3 +6,8 @@
 dotnet new xunit -o dotnet-testing
 cd dotnet-testing
 ```
+
+# Run test
+```sh
+dotnet test
+```
