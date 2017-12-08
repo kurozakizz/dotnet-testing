@@ -17,5 +17,15 @@ namespace dotnet_testing
             // assert
             Assert.False(actual);
         }
+
+        [Fact]
+        public void Test_IsValidLogFileName_LogExtension_ShouldReturn_True()
+        {
+            LogAnalyzer logAnalyzer = new LogAnalyzer();
+
+            bool actual = logAnalyzer.IsValidLogFileName("filename.log");
+
+            Assert.True(actual);
+        }
     }
 }
