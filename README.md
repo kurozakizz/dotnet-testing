@@ -11,3 +11,12 @@ cd dotnet-testing
 ```sh
 dotnet test
 ```
+
+# [Theory] Example
+
+LogAnalyzer and its test
+
+![LogAnalyzer](https://raw.githubusercontent.com/kurozakizz/dotnet-testing/master/screenshots/LogAnalyzer.png)LogAnalyzer
+
+![LogAnalyzerTests](https://raw.githubusercontent.com/kurozakizz/dotnet-testing/master/screenshots/LogAnalyzerTests.png)LogAnalyzerTests
+
