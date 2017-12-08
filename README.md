@@ -12,7 +12,9 @@ cd dotnet-testing
 dotnet test
 ```
 
-# [Theory] Example
+# Use [Theory] Example
+
+Example of inject test data as a list of test case into single test case
 
 LogAnalyzer.cs
 
