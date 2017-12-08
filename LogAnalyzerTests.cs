@@ -3,7 +3,7 @@ using Xunit;
 
 namespace dotnet_testing
 {
-    public class LogAnalyzerTests: IDisposable
+    public class LogAnalyzerTests
     {
         private LogAnalyzer logAnalyzer = null;
 
