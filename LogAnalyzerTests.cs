@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 
 namespace dotnet_testing
@@ -20,7 +19,7 @@ namespace dotnet_testing
         [Theory]
         [InlineData("filename.png", false)]
         [InlineData("filename.log", true)]
-        public void TestIsValidLogFileName(string fileName, bool expected)
+        public void Test_IsValidLogFileName(string fileName, bool expected)
         {
             bool actual = logAnalyzer.IsValidLogFileName(fileName);
             Assert.Equal(expected, actual);
