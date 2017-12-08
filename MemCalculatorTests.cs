@@ -8,11 +8,29 @@ namespace dotnet_testing
       public void Test_Sum_Default_ShouldReturn_0()
       {
         int expected = 0;
-        MemCalculator calc = new MemCalculator();
+        MemCalculator calc = MakeCalc();
 
         int actual = calc.Sum();
-        
+
         Assert.Equal(expected, actual);
       }
+
+      [Fact]
+      public void Test_Add1_ShouldReturn_1()
+      {
+        int expected = 1;
+        MemCalculator calc = MakeCalc();
+
+        calc.Add(1);
+        int actual = calc.Sum();
+
+        Assert.Equal(expected, actual);
+      }
+
+      private static MemCalculator MakeCalc()
+      {
+          return new MemCalculator();
+      }
+
     }
 }
