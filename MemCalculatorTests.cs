@@ -27,6 +27,20 @@ namespace dotnet_testing
         Assert.Equal(expected, actual);
       }
 
+      [Fact]
+      public void Test_Add123_ShouldReturn_6()
+      {
+        int expected = 6;
+        MemCalculator calc = MakeCalc();
+
+        calc.Add(1);
+        calc.Add(2);
+        calc.Add(3);
+        int actual = calc.Sum();
+
+        Assert.Equal(expected, actual);
+      }
+
       private static MemCalculator MakeCalc()
       {
           return new MemCalculator();
