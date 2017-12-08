@@ -12,7 +12,7 @@ cd dotnet-testing
 dotnet test
 ```
 
-# Use [Theory] Example
+# Use [Theory]
 
 Example of inject test data as a list of test case into single test case
 
@@ -24,3 +24,14 @@ LogAnalyzerTests.cs
 
 ![LogAnalyzerTests](https://raw.githubusercontent.com/kurozakizz/dotnet-testing/master/screenshots/LogAnalyzerTests.png)
 
+# Use [Fact]
+
+Example of split test case into each case
+
+MemCalculator.cs
+
+![MemCalculator](https://raw.githubusercontent.com/kurozakizz/dotnet-testing/master/screenshots/LogAnalyzer.png)
+
+MemCalcualtorTests.cs
+
+![MemCalculatorTests](https://raw.githubusercontent.com/kurozakizz/dotnet-testing/master/screenshots/LogAnalyzer.png)
