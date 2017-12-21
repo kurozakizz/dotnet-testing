@@ -6,6 +6,14 @@
 dotnet --info
 ```
 
+# Solution
+```sh
+dotnet new sln
+dotnet new xunit -o LogAnalyzer
+dotnet sln dotnet-testing.sln add LogAnalyzer/LogAnalyzer.csproj
+dotnet sln list
+```
+
 ![Info](https://raw.githubusercontent.com/kurozakizz/dotnet-testing/master/screenshots/info.png)
 
 # Create new xunit project
